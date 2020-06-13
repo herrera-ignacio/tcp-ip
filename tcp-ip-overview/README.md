@@ -56,3 +56,17 @@ It is important to note that __when layers of TCP/IP are on different systems, t
 Each layer on the sending system adds information to the data it receives from the layer above and passes it all to the layer below, except for the Physical layer, that actually has to send the bits in a form appropriate for the communications link used.
 
 Likewise, each layer on the receiving system unwraps the received message, often called a __Protocol Data Unit (PDU)__, with each layer examining, using, and stripping off the information it needs to complete its task, and passing the remainder up to the next layer, except for the Application layer, which passes what's left off to the application program itself.
+
+## Peer-to-Peer example
+
+![peer-to-peer](./peer-to-peer.png)
+
+![transmission](./transmission.png)
+
+## Encapsulation
+
+Each layer uses encapsulation to add the information its peer needs on the receiving system. The Network layer adds a _header_ to the information it receives from the Transport layer at the sender and passes the whole unit down to the Data Link layer.
+
+At the receiver, the Network layer looks at the control information, usually in a _header_, in the data it receives from the Data Link layer and passes the remainder up to the Transport layer for further processing.
+
+This is called __encapsulation__ because __one layer has no idea what the structure or meaning of the PDU is at other layers__.
