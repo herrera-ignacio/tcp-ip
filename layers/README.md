@@ -34,3 +34,15 @@ Every networked application program could conceivably include very line of code 
 Besides the need to multiplex in various ways, another factor influencing layers is that modern operating systems do not allow direct access to hardware, rather it's required to go through the OS. Thus leading to a centralization of the networking tasks in the end system.
 
 Protocol layers __make all of these issues easier to deal with, but they cannot be added haphazardly__. As important as the layers are, the tasks and responsibilities assigned to those layers are even _more_ important.
+
+## Protocol Layers
+
+Each layer has a separate function in the overall task of moving bits between processes.
+
+As long as the boundary functions between adjacent layers are respected, layers can be combined for efficiency, "mixed-and-matched" from different vendors, or customized for different circumstances, all without having to rework the entire stack from top to bottom.
+
+A key point in networking is that the payload and control information at one layer is just a "transparent" (meaningless) payload to the layer below. Transparent bits, as the name implies, are passed unchanged to the next layer.
+
+### How Protocol Layers Work Together
+
+_Encapsulation_ makes the entire architecture workable. Think of the layers of the protocol suite in terms of writting a letter and the systems that are involved in letter delivery. The letter goes inside an envelope which is gathered with others inside a mailbag which is transported with others inside a truck or plane. This system makes the overall task of delivering many messagies easier, not harder. For example, there now can be facilities that only deal with mailbags and do not worry about an individual letter's language or the transportation details.
