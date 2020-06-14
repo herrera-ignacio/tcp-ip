@@ -18,6 +18,7 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [Ports & Sockets](./ports-sockets)
 * [Client-Server Model](./client-server)
 * [Repeaters, Bridges, Routers, Switches](./essential-devices)
+* [Virtual LANs](./vlans)
 
 ## Glossary
 

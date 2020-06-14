@@ -10,6 +10,8 @@ In their simplest forms, repeaters, bridges, and routers operate at different la
 
 Roughy, __repeaters foward bits__ from one LAN segment to another, __bridges forward frames__, and __routers forward packets__.
 
+![internetwork](./internetwork.png)
+
 ## Segmenting LANs
 
 A way to give each user more bandwith, without a wholesale upgrade of hardware, is to _segment_ the LAN. Segmenting does not require replacing all of the user equiment.
