@@ -17,6 +17,7 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [Applications in TCP/IP](./applications)
 * [Ports & Sockets](./ports-sockets)
 * [Client-Server Model](./client-server)
+* [Repeaters, Bridges, Routers, Switches](./essential-devices)
 
 ## Glossary
 
@@ -26,4 +27,3 @@ Frequently use terms that are easily explained without the need of a full chapte
 * [Intermediate System](./glossary/intermediate-system.md)
 * [Protocol Data Units](./glossary/protocol-data-units.md)
 * [System](./glossary/system.md)
-
