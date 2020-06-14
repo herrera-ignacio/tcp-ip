@@ -15,8 +15,8 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [TCP/IP Overview](./tcp-ip-overview)
 * [TCP/IP Layers](./tcp-ip-layers)
 * [Applications in TCP/IP](./applications)
-* [Ports & Sockets](./ports-sockets) __WIP__
-* [Client-Server Model](./client-server) __WIP__
+* [Ports & Sockets](./ports-sockets)
+* [Client-Server Model](./client-server)
 
 ## Glossary
 
@@ -24,4 +24,6 @@ Frequently use terms that are easily explained without the need of a full chapte
 
 * [Host](./glossary/host.md)
 * [Intermediate System](./glossary/intermediate-system.md)
+* [Protocol Data Units](./glossary/protocol-data-units.md)
 * [System](./glossary/system.md)
+

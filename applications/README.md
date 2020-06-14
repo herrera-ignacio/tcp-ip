@@ -9,3 +9,5 @@ The _File Transfer Protocol_ (FTP) in TCP/IP, is at once an Application protocol
 Some protocols provide separate layers for sessions, internal representation conversion, and application services. In practice, these are seldom implemented independently.
 
 ![applications](./apps.png)
+
+![apps](./apps2.png)
