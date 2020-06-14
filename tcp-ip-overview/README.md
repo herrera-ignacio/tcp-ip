@@ -8,6 +8,8 @@ TCP/IP stack is a hierarchical model made up of interactive modules. Each module
 
 TCP is hierarchical in the sense that each higher layer protocol is supported by one or more lower layer protocols.
 
+With a few exceptions, the TCP/IP protocol suite does not really define any low-level protocols below the network layer. It usually specifies how to put IP packets into frames and how to get them out again.
+
 ## Five Layers
 
 TCP/IP _model_ is based on a __five-layer model for networking__. The stack is _open_, which means that there are no "secrets" as to how it works. Two compatible end-system applications can communicate regardless of their underlying architectures, although the connections between layers are not defined.
