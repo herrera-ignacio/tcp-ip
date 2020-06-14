@@ -2,6 +2,12 @@
 
 The Internet Protocol Suite is usually called TCP/IP after two of its most prominent protocols, but there are other protocols as well.
 
+## Summary
+
+TCP/IP stack is a hierarchical model made up of interactive modules. Each module provides a specific function. TCP/IP is based on a five-layers model, which contains relatively independent protocols that can be "mixed and matched" depending on the needs of the system to provide whatever funciton is desired.
+
+TCP is hierarchical in the sense that each higher layer protocol is supported by one or more lower layer protocols.
+
 ## Five Layers
 
 TCP/IP _model_ is based on a __five-layer model for networking__. The stack is _open_, which means that there are no "secrets" as to how it works. Two compatible end-system applications can communicate regardless of their underlying architectures, although the connections between layers are not defined.
