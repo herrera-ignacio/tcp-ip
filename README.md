@@ -15,6 +15,8 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [TCP/IP Overview](./tcp-ip-overview)
 * [TCP/IP Layers](./tcp-ip-layers)
 * [Applications in TCP/IP](./applications)
+* [Ports & Sockets](./ports-sockets) __WIP__
+* [Client-Server Model](./client-server) __WIP__
 
 ## Glossary
 
