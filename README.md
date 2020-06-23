@@ -8,6 +8,8 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 
 ## TOC
 
+### Introduction
+
 * [Introduction](./introduction)
 * [Protocols](./protocols)
 * [Internet Administraton](./internet-administration)
@@ -21,7 +23,11 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [Virtual LANs](./vlans)
 * [Wireless LANs and IEEE 802.11](./wireless)
 
-## Glossary
+### Core Protocols
+
+* [IPv4 and IPv6 Addressing](./protocols/ip) __WIP (154)__
+
+### Glossary
 
 Frequently use terms that are easily explained without the need of a full chapter about it.
 
