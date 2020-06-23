@@ -31,7 +31,7 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 
 Frequently use terms that are easily explained without the need of a full chapter about it.
 
-* [Ethernet](./glossary/ethernet)
+* [Ethernet](./glossary/ethernet.md)
 * [Host](./glossary/host.md)
 * [Intermediate System](./glossary/intermediate-system.md)
 * [Protocol Data Units](./glossary/protocol-data-units.md)
