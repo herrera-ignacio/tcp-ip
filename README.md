@@ -20,7 +20,6 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [Repeaters, Bridges, Routers, Switches](./essential-devices)
 * [Virtual LANs](./vlans)
 * [Wireless LANs and IEEE 802.11](./wireless)
-* [Wi-Fi](./wifi)
 
 ## Glossary
 
@@ -32,4 +31,5 @@ Frequently use terms that are easily explained without the need of a full chapte
 * [Intermediate System](./glossary/intermediate-system.md)
 * [MAC Address](./glossary/mac-address.md)
 * [Protocol Data Units](./glossary/protocol-data-units.md)
+* [Sonet](./glossary/sonet.md)
 * [System](./glossary/system.md)
