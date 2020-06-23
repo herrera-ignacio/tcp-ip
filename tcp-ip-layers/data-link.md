@@ -29,3 +29,11 @@ Networking with intermediate systems is called __hop-by-hop delivery__. A "hop" 
 ![hop-by-hop](./images/hop-by-hop.png)
 
 ![hop-by-hop forwarding](./images/forwarding.png)
+
+### Summary
+
+Putting the world of connectors, modems, and electrical digital signal levels of the physical layer aside, let’s go right to the data link layer of the TCP/IP protocol stack. It’s not that these things are not important to networking; it’s just that these things have nothing directly to do with TCP/IP.
+
+The data link layer of TCP/IP __takes an IP packet at the source and puts it inside whichever frame structure is used between systems__ (e.g., an Ethernet frame). The data link layer then passes the frame to the physical layer, which sends the frame as a series of bits over the link itself. At the receiver, the physical and data link layers recover the frame from the arriving sequence of bits and extract the packet. The packet is then passed to the receiving network (IP) layer.
+
+Ethernet frames are perhaps the most common of all data-link frame formats for IP packets, especially at the endpoints of the network.

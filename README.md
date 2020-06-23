@@ -19,11 +19,19 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [Client-Server Model](./client-server)
 * [Repeaters, Bridges, Routers, Switches](./essential-devices)
 * [Virtual LANs](./vlans)
+* [Data Link Layer in Depth](./data-link)
+* [MAC Addresses](./mac)
+* [DSL](./dsl)
+* [SONET/SDH]
+* [PPP and DSL](ppp)
+* [Wireless LANs and IEEE 802.11](./wireless)
+* [Wi-Fi](./wifi)
 
 ## Glossary
 
 Frequently use terms that are easily explained without the need of a full chapter about it.
 
+* [Ethernet](./glossary/ethernet)
 * [Host](./glossary/host.md)
 * [Intermediate System](./glossary/intermediate-system.md)
 * [Protocol Data Units](./glossary/protocol-data-units.md)
