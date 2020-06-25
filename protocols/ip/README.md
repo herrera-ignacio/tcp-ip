@@ -1,7 +1,6 @@
 # IPv4 & IPv6 Addressing
 
-Today it is the most common by far to assign IP addresses automatically with the Dynamic Host Configuration
-Protocol, or DHCP. Routers can use DHCP as well. We’ll look at DHCP in a later chapter.
+Today it is the most common by far to assign IP addresses automatically with the Dynamic Host Configuration Protocol, or DHCP. Routers can use DHCP as well. We’ll look at DHCP in a later chapter.
 
 You can manually assign IP address, using a different interface based on the OS.
 
@@ -30,3 +29,42 @@ IP addresses and their prefixes are read in a certain way and have special mean-
 ![ipv4](./ipv4.png)
 
 ## IPv6 Address
+
+IPv6 has been around since about 1995, but the pressure to transition from IPv4 to IPv6 is mostly recent, and comes mainly from network service providers and operators and other roups with large internal networks, such as cellular telephone network operators, as well as aplces with large populations with mobile devices of all kinds, including cars, tablets, and anything that can attach to the IoT.
+
+* An increase in the size of the IP address from 4 bytes (32 bits) to 16 bytes
+(128 bits).
+* An increase in the size of the IP header from 24 bytes (192 bits) to 40 bytes
+(320 bits). (Although aside from the address fields, the header is actually
+smaller than in IPv4.)
+* Enhanced security capabilities using IPSec (if needed).
+* Provision of special “mobile” and autoconfiguration features.
+* Provision for support of flows between routers and hosts for interactive
+multimedia.
+* Inclusion of header compression and extension techniques.
+
+For backward compatibility, all currently assigned public IP addresses are supported as a subset of the IPv6 address space. The IPv6 address size increases the overall IP packet header size (and total TCP/IP overhead) from the current 24 bytes (192 bits) to 40 bytes (320 bits). However, the IPv6 header is much simpler than the IPv4 header.
+
+## Subnetting
+
+Subnetting is done using an IP address mask. The mask is a string of bits as long as the IP address (32 bits in the case of IPv4). If the mask bit is a 1 bit, the corresponding bit in the IP address is part of the network portion of the IP address. If the address bit is part of the host portion, the corresponding mask bit is set to a 0 bit. A mask of 255.255.0.0 means that the first 16 bits of the IP address are part of the network address and the last 16 bits are part of the host portion of the address.
+
+### CIDR and VLSM
+
+Today, the standard methods for moving the network/host address boundary are variable-length subnet masking (VLSM) for host addressing and routing inside a routing domain, and classless interdomain routing (CIDR) for routing between routing domains.
+
+## IP Address Assignment
+
+Most people get IP addresses from their ISP. But where do ISPs get their IP addresses? Large organizations can still apply for their own IP addresses indepen- dent from any ISP. To whom do they apply?
+
+IP addresses (and the Internet domain names associated with them) were ini- tially handed out by the Internet Assigned Number Authority (IANA). Today the Internet Corporation for Assigned Names and Numbers (ICANN), an international nonprofit organization, oversees the process of assigning IP addresses.
+
+Actual IP addresses are handed out by the following Regional Internet Registries (RIRs):
+
+* ARIN (American Registry for Internet Numbers) at www.arin.net—ARIN has handed out IP addresses for North and South America, the Caribbean, and Africa below the Sahara since 1997.
+* RIPE NCC (Reseaux IP European Network Coordination Center) at www.ripe. net—RIPE assigns IP addresses in Europe and surrounding areas.
+* APNIC (Asian Pacific Network Information Center) at www.apnic.net— APNIC assigns IP addresses in 62 countries and regions in Central Asia, Southeast Asia, Indochina, and Oceania. 168 CHAPTER 5 IPv4 and IPv6 Addressing
+* LACNIC (Latin American and Caribbean Network Information Center) at www.lacnic.net—LACNIC assigns IP addresses from ARIN in 38 countries, including Mexico.
+* AfriNIC (African Network Information Center) at www.afrinic.net—AfriNIC took over assignment of African IP addresses from ARIN.
+
+All of these Internet Registries databases (who has what IP address space?) combined are known as the __Internet Routing Registry (IRR)__. Internet domain names comprise a related activity, but (like IP addresses) names must be globally unique and (unlike IP addresses) can be almost anything.
