@@ -26,8 +26,9 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 ### Core Protocols
 
 * [IPv4 and IPv6 Addressing](./protocols/ip)
-* [ARP - Address Resolution Protocol](./protocols/arp)
-* [ICMP - Internet Control Message Protocol](./protocols/icmp) 
+* [ARP: Address Resolution Protocol](./protocols/arp)
+* [ICMP: Internet Control Message Protocol](./protocols/icmp) 
+* [Routing](./protocols/routing)
 
 ### Glossary
 
