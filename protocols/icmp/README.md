@@ -1,6 +1,6 @@
 # ICMP: Internet Control Message Protocol
 
-We know IP is a connectionless or _unreliable_ method of packet delivery. __IP has a built-in error reporting protocol__, the _Internet Control Message Protocol_ (ICMP). Note that ICMP does not deal with "error messages" but "control messages".
+We know IP is a connectionless or _unreliable_ method of packet delivery. __IP has a built-in error reporting protocol__, the _Internet Control Message Protocol_ (ICMP). Note that ICMP does not deal with error messages but 'control messages'.
 
 ## ICMP and Ping
 

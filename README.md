@@ -29,6 +29,8 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [ARP: Address Resolution Protocol](./protocols/arp)
 * [ICMP: Internet Control Message Protocol](./protocols/icmp) 
 * [Routing](./protocols/routing)
+* [IP Forwarding](./protocols/ip-forwarding)
+* [UDP: User Datagram Protocol](./protocols/udp)
 
 ### Glossary
 
