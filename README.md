@@ -42,5 +42,6 @@ Frequently use terms that are easily explained without the need of a full chapte
 * [Intermediate System](./glossary/intermediate-system.md)
 * [MAC Address](./glossary/mac-address.md)
 * [Protocol Data Units](./glossary/protocol-data-units.md)
+* [Socket](./glossary/socket.md)
 * [Sonet](./glossary/sonet.md)
 * [System](./glossary/system.md)
