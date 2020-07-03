@@ -34,6 +34,13 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [TCP: Transmission Control Protocol](./protocols/tcp)
 * [Multiplexing and Sockets](./protocols/multiplexing)
 
+### Routing Protocols
+
+* [Routing and Peering](./protocols/routing/peering)
+* [IGPs: RIP, OSPF, and IS-IS](./protocols/routing/igps)
+* [BGP: Border Gateway Protocol](./protocols/routing/bgp)
+* [Multicast](./protocols/routing/multicast)
+
 ### Glossary
 
 Frequently use terms that are easily explained without the need of a full chapter about it.
