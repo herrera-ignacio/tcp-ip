@@ -31,6 +31,8 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [Routing](./protocols/routing)
 * [IP Forwarding](./protocols/ip-forwarding)
 * [UDP: User Datagram Protocol](./protocols/udp)
+* [TCP: Transmission Control Protocol](./protocols/tcp)
+* [Multiplexing and Sockets](./protocols/multiplexing)
 
 ### Glossary
 
