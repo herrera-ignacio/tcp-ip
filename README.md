@@ -41,6 +41,15 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [BGP: Border Gateway Protocol](./protocols/routing/bgp)
 * [Multicast](./protocols/routing/multicast)
 
+### Application Level
+
+* [DHCP: Dynamic Host Configuration Protocol](./protocols/application/dhcp)
+* [DNS: Domain Name System](./protocols/application/dns)
+* [FTP: File Transfer Protocol](./protocols/application/ftp)
+* [SMTP](./protocols/application/smtp)
+* [HTTP: Hypertext Transfer Protocol](./protocols/application/http)
+* [SSL](./protocols/application/ssl)
+
 ### Glossary
 
 Frequently use terms that are easily explained without the need of a full chapter about it.
