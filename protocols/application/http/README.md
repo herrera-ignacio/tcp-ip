@@ -9,3 +9,5 @@ This protocol is designed to permit intermediate network elements to improve or 
 HTTP presumes an underlying and reliable transport laer protocol, TCP is commonly used, however it can be adapted to use unreliable protocols such as UDP.
 
 Also, HTTP resources are identified and located on the network by Uniform Resource Locators (URLs), using the Uniform Resource Identifier (URIs) schemes http and https.
+
+## [Role in security](https://github.com/herrera-ignacio/cybersecurity_guidelines/tree/master/glossary/http)

@@ -48,7 +48,8 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [FTP: File Transfer Protocol](./protocols/application/ftp)
 * [SMTP](./protocols/application/smtp)
 * [HTTP: Hypertext Transfer Protocol](./protocols/application/http)
-* [SSL](./protocols/application/ssl)
+* [SSL](https://github.com/herrera-ignacio/cybersecurity_guidelines/tree/master/glossary/encryption/ssl)
+* [TLS](https://github.com/herrera-ignacio/cybersecurity_guidelines/tree/master/glossary/encryption/tls)
 
 ### Glossary
 
