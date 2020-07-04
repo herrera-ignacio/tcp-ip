@@ -56,7 +56,7 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [Secure Shell (Remote Access)](./security/ssh)
 * [NAT: Network Address Translation](./security/nat)
 * [Firewalls](./security/firewalls)
-* [IP Security](./security/ip-security)
+* [IPSec: IP Security](./security/ip-security)
 
 ### Glossary
 
