@@ -50,6 +50,7 @@ Frequently use terms that are easily explained without the need of a full chapte
 * [Host](./glossary/host.md)
 * [Intermediate System](./glossary/intermediate-system.md)
 * [MAC Address](./glossary/mac-address.md)
+* [MPLS](./glossary/mpls.md)
 * [Protocol Data Units](./glossary/protocol-data-units.md)
 * [Socket](./glossary/socket.md)
 * [Sonet](./glossary/sonet.md)
