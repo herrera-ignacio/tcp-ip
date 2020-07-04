@@ -55,3 +55,4 @@ Frequently use terms that are easily explained without the need of a full chapte
 * [Socket](./glossary/socket.md)
 * [Sonet](./glossary/sonet.md)
 * [System](./glossary/system.md)
+* [VPN](./glossary/vpn.md)
