@@ -58,6 +58,10 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [Firewalls](./security/firewalls)
 * [IPSec: IP Security](./security/ip-security)
 
+### Media
+
+* [VoIP: Voice over Internet Protocol](./media/voip)
+
 ### Glossary
 
 Frequently use terms that are easily explained without the need of a full chapter about it.
