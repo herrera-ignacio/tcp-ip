@@ -45,7 +45,7 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 
 Frequently use terms that are easily explained without the need of a full chapter about it.
 
-* [DSL](./glossary/ethernet.md)
+* [DSL & ADSL](./glossary/dsl.md)
 * [Ethernet](./glossary/ethernet.md)
 * [Host](./glossary/host.md)
 * [Intermediate System](./glossary/intermediate-system.md)

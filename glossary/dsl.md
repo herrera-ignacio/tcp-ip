@@ -1,4 +1,12 @@
-# DSL
+# DSL: Digital Subscriber Line
+
+Family of technologies that are used to __transmit digital data over telephone lines__. In telecommunications marketing, the term DSL is widely understoon to mean _Assymmetric DSL_ (ADSL), the most commonly installed DSL technology for Internet access.
+
+DSL can be delivered simultaneously with wired telephone service on the same telephone line since DSL uses higher frequency bands for data. On the customer premises, a DSL filter on each non-DSL outlet blocks any high-frequency interference to enable simultaneous use of the voice and DSL services.
+
+In ADSL, data throughput in the upstream direction (to the service provider) is lower, hence the designation of asymmetric service.
+
+## History
 
 Originally designed for the “national net- works” that would offer everything that the Internet does today, but from the telephone company as part of the Integrated Services Digital Network (ISDN) initiatives of the 1980s, DSL was adapted for “broadband” Internet access when the grand visions of the telephone companies as content providers were reduced to the reality of a restricted role as ISPs and little more.
 
