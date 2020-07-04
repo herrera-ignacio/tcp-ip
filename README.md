@@ -46,7 +46,7 @@ Understand TCP/IP well enough to set up and run a network. What protocols do and
 * [DHCP: Dynamic Host Configuration Protocol](./protocols/application/dhcp)
 * [DNS: Domain Name System](./protocols/application/dns)
 * [FTP: File Transfer Protocol](./protocols/application/ftp)
-* [SMTP](./protocols/application/smtp) __637__
+* [SMTP](./protocols/application/smtp)
 * [HTTP: Hypertext Transfer Protocol](./protocols/application/http)
 * [SSL](./protocols/application/ssl)
 
