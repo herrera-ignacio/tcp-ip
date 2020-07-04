@@ -20,3 +20,16 @@ ESP encrypts the payload of the message itself.
 
 Separating this encryption process from the authentication process, although in practice are normally used together, allows them to evolve independently, so advances in encryption do not require changes in authentication and vice versa.
 
+## IPSec vs SSL/TLS
+
+IPSec typical usage is LAN to LAN and Client to LAN thus forming an encrypted tunnel over some untrusted network like the Internet (VPNs). Once traffix exits the IPSec tunnel, it goes to its destination as unprotected clear text.
+
+HTTPS (TLS) encrypts client to server and provides end-to-end protection regardless of the underlying network.
+
+They perform __different functions__.
+
+The purpose of IPsec is to give the remote computer direct access to the central network, making it a full member. Remote users have access to any file storage locations, programs, printers, and backups, exactly as if they were in the office. IPsec is therefore a robust system that gives users whatever resources they need, wherever they are located.
+
+SSL VPNs work by accessing specific applications whereas IPsec users are treated as full members of the network.
+
+Beyond security concerns, it’s also crucial to think about what services VPN users will need to access. If they will only be using web-based applications like email and cloud storage, SSL may be the right choice. Remote users can quickly connect to the applications they use without being confused by the ones they don’t. This makes SSL ideal for clients and freelance employees. But if users require full access—such as central office team members who are traveling—IPsec is the way to go. IPsec VPNs give users the ability to do whatever they can normally do while sitting in the main office from wherever they are.
